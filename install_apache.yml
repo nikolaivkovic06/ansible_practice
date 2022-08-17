@@ -12,7 +12,7 @@
   - name: install httpd and php package
     package:          
       name: 
-        - "{{ apache_package }}"
-        - "{{ php_package }}"
+        - httpd
+        - php
       state: latest
 

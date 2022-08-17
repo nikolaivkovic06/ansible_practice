@@ -1,4 +1,8 @@
-# Hosts
-192.168.1.160 apache_package=httpd php_package=php
-192.168.1.153 apache_package=httpd php_package=php 
-192.168.1.151 apache_package=httpd php_package=php
+[web_servers]
+192.168.1.160 
+
+[db_servers]
+192.168.1.153
+
+[file_servers] 
+192.168.1.151
